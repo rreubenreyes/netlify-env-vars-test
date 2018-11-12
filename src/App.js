@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            {process.env.ENV_VAR}
+            {process.env.REACT_APP_ENV_VAR}
           </p>
         </header>
       </div>
